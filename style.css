@@ -29,7 +29,7 @@ body {
   
   .site-header {
     background-color: rgba(0, 0, 0, .85);
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(10px);
     backdrop-filter: saturate(180%) blur(20px);
 }
 
@@ -136,8 +136,8 @@ color: #dd4b39;
     color: #bb0000;
 
 }
-.fa-facebook, .fa-twitter,.fa-google-plus-g, .fa-youtube{
-font-size: 2rem;
+.fa-facebook, .fa-twitter,.fa-google-plus-g, .fa-instagram{
+font-size: 1.5rem;
 margin:.5rem;
 }
   /* MARKETING CONTENT
@@ -199,4 +199,7 @@ margin:.5rem;
     .featurette-heading {
       margin-top: 7rem;
     }
+  }
+  @media (max-width:300px){
+
   }
