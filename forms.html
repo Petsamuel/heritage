@@ -31,35 +31,50 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark sticky-top" style="background-color: rgb(0, 0, 0)">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-            <img src="asset/logo.jpg" class="d-inline-block align-top" alt="http://www.w3.org/2000/svg" style="width: 15%;">
-            <span style="font-family: cursive; margin: 0px 20px;">Heritage design</span>
-            </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="nav navbar-static-top justify-content-center padding">
-              <!--tips: to change the .nav alignment use .justify-content-center,.justify-content-end or use .flex-column to vertical alignment-->
-             <span class="socials">
-                <a href="#"><i class="fab fa-facebook" style="margin: 0px 6px; "></i></a>
-                 <a href="#"><i class="fab fa-twitter"  style="margin: 0px 6px; "></i></a>
-                <a href="#"><i class="fab fa-google-plus-g"  style="margin: 0px 6px;"></i></a>
-                <a href="#"> <i class="fab fa-instagram"  style="margin: 0px 6px; "></i></a>
-              </span>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: rgb(0, 0, 0)">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+          <img src="asset/logo.jpg" class="d-inline-block align-top" alt="http://www.w3.org/2000/svg" style="width: 13%;">
+          <span style="font-family: cursive; margin: 0px 20px;">Heritage design</span>
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false"  tabindex="-1" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index/#works" tabindex="-1" aria-disabled="true">Our Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="index/#about" tabindex="-1" aria-disabled="true">About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+              </li>
           </ul> <!-- 
-            <form class="d-flex">
-              <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>-->
-          </div>
+          <form class="d-flex">
+            <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>-->
         </div>
-      </nav>
+      </div>
+    </nav>
   </header>
-
+  <div class="container-fluid alert-light fixed-bottom text-dark">
+    <ul class="nav navbar  justify-content-center">
+      
+       <span class="socials ml-auto">
+          <a href="#"><i class="fab fa-facebook" style="margin: 0px 6px; "></i></a>
+           <a href="#"><i class="fab fa-twitter"  style="margin: 0px 6px; "></i></a>
+          <a href="#"> <i class="fab fa-instagram"  style="margin: 0px 6px; "></i></a>
+        </span>
+        <i class="fab fa-whatsapp" aria-hidden="true" ></i><small> (+234)8108699025</small> 
+    </ul>
+</div>
   <main>
 
     <section class="py-5 text-center container">

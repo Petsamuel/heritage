@@ -129,15 +129,15 @@ color: #3b5998;
 .fa-twitter{
 color: #00aced;
 }
-.fa-google-plus-g{
-color: #dd4b39;
+.fa-whatsapp{
+color: #00af1d;
 }
 .fa-youtube{
     color: #bb0000;
 
 }
-.fa-facebook, .fa-twitter,.fa-google-plus-g, .fa-instagram{
-font-size: 1.5rem;
+.fa-facebook, .fa-twitter,.fa-whatsapp, .fa-instagram{
+font-size: 1rem;
 margin:.5rem;
 }
   /* MARKETING CONTENT
