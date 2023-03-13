@@ -1,1 +1,2 @@
-# heritage
+# heritage 
+Simple graphics design template 
